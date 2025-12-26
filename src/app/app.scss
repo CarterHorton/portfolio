@@ -3,4 +3,38 @@
 header {
     background-color: $dark1;
     color: $light1;
+    border-bottom: 16px solid $primary ;
+}
+#projectLink {
+    color: $primary;
+}
+// SCSS styles for the links section
+ul {
+    width: 100%;
+}
+ul li {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li a {
+    color: $secondary;
+    padding: 3% 25% 3% 25%;
+    font-size: 24px;
+    font-family: 'inter', sans-serif;
+    text-underline-offset: 25%;
+}
+ul li:hover {
+    background-color: $dark2;
+}
+
+// Below is the SCSS for the h1 tag
+h1 {
+    margin: 16px;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-size: 48;
+    font-weight: bold;
+    filter: drop-shadow(0px 4px 4px rgba(#fff, 25%));
 }
