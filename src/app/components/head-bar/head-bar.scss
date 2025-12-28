@@ -41,9 +41,9 @@ h1 {
     filter: drop-shadow(0px 4px 4px rgba(#fff, 25%));
 }
 
+// For speeds sake tablet and mobile share the same VP
 @media (min-width: 768px) {
-    /* Below is the desktop viewport
-    and the main VP styles that don't change */
+    /* Below is the desktop viewport*/
 
     header {
         background-color: $dark1;
