@@ -10,6 +10,7 @@ body {
     background-color: black;
 }
 
+// Paragraph styles
 p {
     color: $light3;
     line-height: 150%;
@@ -19,3 +20,21 @@ p {
 .important {
     color: $light1;
 }
+
+// Heading styles
+h1, h2, h3 {
+    color: $light3;
+    padding: 4px;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    filter: drop-shadow(0px 4px 4px rgba(#fff, 25%));
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 24px
+}
+
