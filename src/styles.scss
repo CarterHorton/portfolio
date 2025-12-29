@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
+@use 'colors' as *;
 // SCSS RESET
 * {
     margin: 0;
@@ -8,4 +8,14 @@
 
 body {
     background-color: black;
+}
+
+p {
+    color: $light3;
+    line-height: 150%;
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+}
+.important {
+    color: $light1;
 }
