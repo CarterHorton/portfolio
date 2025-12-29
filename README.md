@@ -79,3 +79,10 @@ finally, there is a ng-content tag in the component, so it needs input in the pa
 ## Buttons
 
 contains a ng-content tag in the component, so it needs input in the parent tag for text to show
+
+## input
+
+### text 
+Text inputs should use ngModel and FormsModule to do two way binding for the back end.
+There will also be a optional .secondary class that allows easy color swapping
+

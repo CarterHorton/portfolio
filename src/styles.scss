@@ -38,3 +38,28 @@ h3 {
     font-size: 24px
 }
 
+// text Input Styles
+input[type="text"] {
+    margin: 4px;
+    background-color: $dark2;
+    color: $light2;
+    border: 2px solid $primary;
+    padding: 4px 8px;
+    border-radius: 50px;
+
+    &:focus, :focus-visible, :focus-within {
+        outline: none;
+        border-width: 4px;
+        margin: 0;
+        color: $light1;
+    }
+
+    &::placeholder {
+        color: $grey;
+    }
+
+    &.secondary {
+        border-color: $secondary;
+    }
+}
+
