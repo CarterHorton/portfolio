@@ -57,3 +57,25 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+# Components and Classes
+
+There are some small complexities that I don't trust myself to remember when using the components that I've created
+
+## Paragraphs
+
+Paragraphs have two modes:
+ * normal - a level 3 color (dark or light) 
+ * important - a level 1 color (dark or light)
+
+## Hyperlinks
+
+Hyperlinks have three current controllables. 
+NOTE: you must put a href="" tag into the call or it won't work
+the second is none-crucial, but you can use --font-size to change the font-size per link
+finally, there is a ng-content tag in the component, so it needs input in the parent tag for text to show
+
+## Buttons
+
+contains a ng-content tag in the component, so it needs input in the parent tag for text to show
