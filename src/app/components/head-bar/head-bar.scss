@@ -6,13 +6,12 @@ header {
     border-bottom: 16px solid $primary ;
     margin: 0;
 }
-#projectLink {
-    color: $primary;
-}
+
 // SCSS styles for the links section
 ul {
     width: 100%;
 }
+
 ul li {
     height: 64px;
     display: flex;
@@ -20,13 +19,7 @@ ul li {
     align-items: center;
     width: calc(min-width + 4px);
 }
-ul li a {
-    color: $secondary;
-    padding: 4px 25% 4px 25%;
-    font-size: 24px;
-    font-family: 'inter', sans-serif;
-    text-underline-offset: 25%;
-}
+
 ul li:hover {
     background-color: $dark2;
 }
@@ -54,6 +47,7 @@ h1 {
         display: flex;
         justify-content: space-between;
     }
+    
     h1 {
         margin: 16px;
         text-align: center;
@@ -78,23 +72,7 @@ h1 {
         height: fit-content;
     }
 
-    #projectLink {
-        color: $primary;
-    }
-
-    ul li a {
-        padding: 0;
-        color: $secondary;
-        font-size: 16px;
-        font-family: 'inter', sans-serif;
-        text-underline-offset: 25%;
-    }
-
     ul li:hover {
         background-color: transparent;
-    }
-
-    ul li a:hover {
-        text-shadow: 1px 0 0 currentColor;
     }
 }
