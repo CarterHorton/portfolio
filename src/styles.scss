@@ -63,3 +63,49 @@ input[type="text"] {
     }
 }
 
+// Button Styles
+button {
+    /* Three pixel margin makes up for the box shadow */
+    margin: 3px;
+    font-size: 16px;
+    padding: 16px 32px 16px 32px;
+    background-color: $dark2;
+    color: $primary;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .25s ease;
+
+    // I want to add gradient later, but we are in fast release mode
+    box-shadow: 0 0 0 1px $primary;
+
+    &:hover{
+        box-shadow: 0 0 2px 2px $primary;
+        background-color: $dark3;
+    }
+
+    &.secondary {
+        box-shadow: 0 0 0 1px $secondary;
+    }
+
+    &.secondary:hover {
+        box-shadow: 0 0 2px 2px $secondary;
+    }
+}
+
+// Hyperlinks
+a {
+    color: $primary;
+    font-size: var(--font-size, 16px);
+    font-family: 'inter', sans-serif;
+    text-underline-offset: 25%;
+    transition: all .25s ease;
+
+    &:hover {
+        text-shadow: 1px 0 currentColor;
+    }
+
+    &.secondary {
+        color: $secondary;
+    }
+}

@@ -71,18 +71,18 @@ Paragraphs have two modes:
 
 ## Hyperlinks
 
-Hyperlinks have three current controllables. 
-NOTE: you must put a href="" tag into the call or it won't work
-the second is none-crucial, but you can use --font-size to change the font-size per link
-finally, there is a ng-content tag in the component, so it needs input in the parent tag for text to show
+Is contained in the global styles
+has .secondary
 
 ## Buttons
 
-contains a ng-content tag in the component, so it needs input in the parent tag for text to show
+Is contained in the global styles
+has .secondary
 
 ## input
 
 ### text 
-Text inputs should use ngModel and FormsModule to do two way binding for the back end.
-There will also be a optional .secondary class that allows easy color swapping
+
+Is contained in the global styles
+has .secondary
 
