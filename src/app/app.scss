@@ -1,0 +1,14 @@
+
+// This is the style for the article that holds the projects
+#projects {
+    margin: 64px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 32px;
+}
+
+@media (min-width: 768px) {
+    #projects {
+        grid-template-columns: auto auto;
+    }
+}

@@ -107,3 +107,13 @@ a {
         color: $secondary;
     }
 }
+
+img {
+    border: 4px solid $primary;
+    border-radius: 8px;
+    color: $light3;
+
+    &.secondary {
+        border-color: $secondary;
+    }
+}

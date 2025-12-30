@@ -1,0 +1,36 @@
+@use 'colors' as *;
+
+section {
+    border: 2px solid $primary;
+    border-radius: 8px;
+    margin: auto;
+    width: fit-content;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+
+img {
+    border-width: 1px;
+    display: inline;
+    width: 40%;
+    margin: 8px;
+}
+
+div {
+    display: inline;
+    margin: 8px;
+
+    h1 {
+        text-align: left;
+    }
+}
+
+// Media for Mobile
+@media (max-width: 1260px) {
+    img {
+        display: none;
+    }
+}
