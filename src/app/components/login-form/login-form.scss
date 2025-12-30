@@ -1,3 +1,32 @@
+@use 'colors' as *;
+
+// The holding section
+section {
+    margin: 64px auto;
+    padding: 8px;
+    min-width: fit-content;
+    max-width: 25%;
+    border: 4px solid $primary;
+    border-radius: 8px;
+}
+
 h2, h3 {
     text-align: left;
+}
+h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+h3 {
+    font-size: 20px;
+}
+
+input {
+    display: block;
+    width: 75%;
+}
+
+button {
+    margin: 16px 8px 8px 8px;
+    padding: 8px 16px 8px 16px;
 }

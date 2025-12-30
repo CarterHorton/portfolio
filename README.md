@@ -83,6 +83,6 @@ has .secondary
 
 ### text 
 
-Is contained in the global styles
+Text inputs should use ngModel and FormsModule to do two way binding for the back end.
 has .secondary
 
