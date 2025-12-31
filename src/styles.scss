@@ -8,6 +8,13 @@
 
 body {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Or 100dvh for dynamic viewport height */
+}
+
+main {
+  flex-grow: 1; /* Main content takes up available space */
 }
 
 // Paragraph styles
