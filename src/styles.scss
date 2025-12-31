@@ -46,7 +46,7 @@ h3 {
 }
 
 // text Input Styles
-input[type="text"] {
+input[type="text"], input[type="password"] {
     margin: 4px;
     background-color: $dark2;
     color: $light2;
