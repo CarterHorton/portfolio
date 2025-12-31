@@ -4,8 +4,9 @@ section {
     border: 2px solid $primary;
     border-radius: 8px;
     margin: auto;
-    width: fit-content;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1024px;
+    max-height: 384px;
     display: flex;
     justify-content: space-between;
     padding: 8px;
@@ -15,7 +16,9 @@ section {
 img {
     border-width: 1px;
     display: inline;
-    width: 40%;
+    object-fit: cover;
+    width: 20%;
+    max-width: 40%;
     margin: 8px;
 }
 

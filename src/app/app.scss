@@ -1,3 +1,5 @@
+@use 'colors' as *;
+
 
 // This is the style for the article that holds the projects
 #projects {
@@ -6,9 +8,63 @@
     grid-template-columns: auto;
     gap: 32px;
 }
+// Remove this once you have more than one project
+// @media (min-width: 768px) {
+//     #projects {
+//         grid-template-columns: auto auto;
+//     }
+// }
 
-@media (min-width: 768px) {
-    #projects {
-        grid-template-columns: auto auto;
+// This style is for the hero image
+.hero-container {
+    display: none;
+}
+
+.mobile-hero {
+    width: 75%;
+    height: fit-content;
+    margin: 64px auto;
+    display: grid;
+    grid-template-columns: 33% 66%;
+    place-items: center;
+    gap: 32px;
+
+    #M-Jeep-Hero {
+        width: 100px;
+        border-radius: 100%;
+        border: none;
+        justify-self: right;
+    }
+    h1 {
+        text-align: left;
+        width: calc(100% - 32px);
+    }
+}
+
+@media (min-width: 1260px) {
+    .hero-container {
+        position: relative;
+        text-align: center;
+        display: block;
+
+        #Jeep-Hero {
+            width: 100%;
+            border: none;
+            margin: none;
+            border-radius: 0;
+        }
+
+        h1 {
+            position: absolute;
+            color: $dark1;
+            font-size: 64px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-shadow: 4px 4px 8px $dark3;
+        }
+    }
+    .mobile-hero {
+        display: none;
     }
 }
