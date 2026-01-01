@@ -9,11 +9,11 @@
     gap: 32px;
 }
 // Remove this once you have more than one project
-// @media (min-width: 768px) {
-//     #projects {
-//         grid-template-columns: auto auto;
-//     }
-// }
+@media (min-width: 768px) {
+    #projects {
+        grid-template-columns: auto auto;
+    }
+}
 
 // This style is for the hero image
 .hero-container {

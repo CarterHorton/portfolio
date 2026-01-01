@@ -79,10 +79,41 @@ has .secondary
 Is contained in the global styles
 has .secondary
 
+## ProjectMini
+
+Project Mini uses two ng-contents:
+* the header is controlled in parent by: 
+```html
+<span class=".project-header">input text</span>
+```
+* the body is controlled by:
+```html
+<p>input text</p>
+```
+
 ## input
 
 ### text 
 
 Text inputs should use ngModel and FormsModule to do two way binding for the back end.
 has .secondary
+
+
+# Cloudflare
+
+## Restarting Server
+In the case of needing to restart the publically hosted server, follow the following:
+1. Connect to server
+2. Ensure both a cmd and a terminal are running, if not you will have to open them
+    - if they are running run ctrl + c to end proccesses
+3. For the angular app, in the cmd, path find to porfolio page and run:
+```bash
+ng serve --host 0.0.0.0
+```
+4. For the terminal run:
+```bash
+cloudflared tunnel run
+```
+5. Open a browser and ensure that carterbhorton.com is running
+
 

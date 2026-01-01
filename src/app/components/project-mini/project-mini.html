@@ -3,16 +3,7 @@
     <img src="campfire-shot.jpg" alt="This Photo doesn't want to load" class="secondary">
     <!-- div needs inline block -->
     <div>
-        <h1>About this website</h1>
-        <p>This website is a personal project that I've been wanting to work on
-            for quite a while. While it is still a work in progress (as it likely 
-            always be), I'm using it to learn cloudflare, angular, node.JS, databases,
-            as well as some backend API solutions. 
-            Furthermore, I've also been working on my UI design skills. So, bare with me 
-            as I learn how to make coherent layouts.
-            Feel free to send me a email with suggestions or any problems you find. 
-
-            View the projects source code on my <a href="https://github.com/CarterHorton/portfolio">GitHub</a>.
-        </p>
+        <h1><ng-content select=".project-header"></ng-content></h1>
+        <ng-content></ng-content>
     </div>
 </section>
