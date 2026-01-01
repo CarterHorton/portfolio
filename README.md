@@ -79,12 +79,25 @@ has .secondary
 Is contained in the global styles
 has .secondary
 
+## ProjectMini
+
+Project Mini uses two ng-contents:
+* the header is controlled in parent by: 
+```html
+<span class=".project-header">input text</span>
+```
+* the body is controlled by:
+```html
+<p>input text</p>
+```
+
 ## input
 
 ### text 
 
 Text inputs should use ngModel and FormsModule to do two way binding for the back end.
 has .secondary
+
 
 # Cloudflare
 
