@@ -1,0 +1,44 @@
+@use 'colors' as *;
+
+section {
+    border: 2px solid $primary;
+    border-radius: 8px;
+    margin: 0px auto 24px auto;
+    width: 20%;
+    min-width: 276px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+h3 {
+    margin: 24px auto 0 auto;
+    width: 20%;
+    min-width: 276px;
+    text-align: left;
+}
+
+article {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.uploud-photo-button {
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+.uploud-photo-button input {
+    color: $light3;
+}
+
+article input[type="text"]::placeholder {
+    color: $light3;
+}
+
+textarea {   
+    max-height: 1024px;
+}

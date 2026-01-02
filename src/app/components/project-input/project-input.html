@@ -1,1 +1,11 @@
-<p>project-input works!</p>
+<h3>Create a New Project</h3>
+<section>
+    <div class="uploud-photo-button">
+        <input type="file" id="fileinput" name="fileinput">
+    </div>
+    <article>
+        <input type="text" placeholder="input heading" maxlength="35" [(ngModel)]="heading">
+        <textarea name="paragraph-input" id="paragraph-input" placeholder="Input details..."
+            [(ngModel)]="paragraph"></textarea>
+    </article>
+</section>
