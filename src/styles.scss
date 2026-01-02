@@ -68,6 +68,21 @@ input[type="text"], input[type="password"] {
     }
 }
 
+textarea {
+    field-sizing: content;
+    min-width: none;
+    max-width: 100%;
+    min-height: 64px;
+    border-radius: 4px;
+    background-color: $dark2;
+    color: $light2;
+    resize: none;
+
+    &::placeholder {
+        color: $light3;
+    }
+}
+
 // Button Styles
 button {
     /* Three pixel margin makes up for the box shadow */
