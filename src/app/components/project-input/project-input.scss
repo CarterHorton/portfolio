@@ -42,3 +42,14 @@ article input[type="text"]::placeholder {
 textarea {   
     max-height: 1024px;
 }
+
+@media (min-width: 1260px) {
+    section {
+        grid-template-columns: 30% 70%;
+        width: 50%;
+    }
+
+    h3 {
+        width:  50%;
+    }
+}
